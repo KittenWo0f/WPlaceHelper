@@ -1,0 +1,25 @@
+# Виртуальные окружения
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Кеши Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Конфигурация IDE / редакторов
+.vscode/
+.idea/
+
+# Логи
+*.log
+
+# Артефакты и временные файлы
+*.swp
+*.swo
+.DS_Store

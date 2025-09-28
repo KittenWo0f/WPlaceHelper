@@ -16,20 +16,20 @@ class WPlaceHelper:
         # Отдаление на 14 шагов
         for _ in range(14):
             self.mouse_controller.scroll(0, -1)
-            time.sleep(0.01)
+            time.sleep(0.1)
 
     def paint_wplace(self, x, y):
         """Рисование на wplace с перемещением курсора"""
         self.keyboard_controller.press('i')
-        time.sleep(0.05)
+        time.sleep(0.06)
         self.mouse_controller.press(Button.left)
-        time.sleep(0.05)
+        time.sleep(0.06)
         self.mouse_controller.release(Button.left)
-        time.sleep(0.05)
+        time.sleep(0.06)
         self.mouse_controller.press(Button.left)
-        time.sleep(0.05)
+        time.sleep(0.06)
         self.mouse_controller.release(Button.left)
-        time.sleep(0.05)
+        time.sleep(0.06)
         self.mouse_controller.move(x, y)
 
     def paint_up(self):
